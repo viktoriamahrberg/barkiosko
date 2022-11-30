@@ -1,0 +1,13 @@
+body {
+    background-color: #1a190f;
+}
+
+h1 {
+    font-family: 'Quicksand', Arial, sans-serif;
+}
+
+#header-video {
+    background: url('../video/background_kiosko.mp4') no-repeat center center;
+    height: 600px;
+    width: 100%;
+}
