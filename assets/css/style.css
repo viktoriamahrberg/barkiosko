@@ -1,9 +1,8 @@
-body {
-    background-color: #1a190f;
-}
+
 
 h1 {
-    font-family: 'Quicksand', Arial, sans-serif;
+    font-family: Arial, sans-serif;
+    color: #000000;
 }
 
 #header-video {
