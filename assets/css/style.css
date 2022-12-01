@@ -1,12 +1,13 @@
+body {
+    background-color: #1a190f;
+}
+
 h1 {
     font-family: Arial, sans-serif;
-    color: #000000;
+    color: #ffffff;
 }
 
 #header-video {
-    background: url('../video/background_kiosko.mp4') no-repeat center center;
-    height: 600px;
-    width: 100%;
     padding: 0;
 }
 
@@ -33,11 +34,6 @@ video {
 
 * {
     box-sizing: border-box;
-}
-
-body {
-    background: #1a190f;
-    color: white;
 }
 
 .video-container:after {
@@ -87,7 +83,7 @@ img {
     margin-top: 20rem;
 }
 
-a {
+/* a {
     color: white;
     text-decoration: none;
     position: relative;
@@ -108,4 +104,4 @@ a {
     &:hover:before {
         width: 100%;
     }
-}
+} */
