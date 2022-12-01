@@ -7,6 +7,7 @@ h1 {
     background: url('../video/background_kiosko.mp4') no-repeat center center;
     height: 600px;
     width: 100%;
+    padding: 0;
 }
 
 /*** T H E - M A G I C - O F - O B J E C T - F I T ***/
@@ -82,7 +83,8 @@ h1 {
 }
 
 img {
-    width: 300px;
+    width: 350px;
+    margin-top: 20rem;
 }
 
 a {
