@@ -22,9 +22,10 @@ h1 {
     }
 }
 
-/* p {
-
-} */
+p {
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 2px;
+}
 
 a {
     color: #ffffff;
