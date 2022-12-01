@@ -1,6 +1,8 @@
 body {
     background-color: #1a190f;
     color: #ffffff;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 2px;
 }
 
 h1 {
@@ -10,8 +12,8 @@ h1 {
     margin: 0 0 1rem;
     padding: 0;
     line-height: 1;
-    font-family: Futura, Helvetica, sans-serif;
     font-size: 4vw;
+    letter-spacing: 2px;
 
     @media (max-width: 400px) {
         font-size: 22px;
@@ -22,10 +24,9 @@ h1 {
     }
 }
 
-p {
-    font-family: 'Oswald', sans-serif;
-    letter-spacing: 2px;
-}
+/* p {
+    
+} */
 
 a {
     color: #ffffff;
