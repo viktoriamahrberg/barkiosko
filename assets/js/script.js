@@ -39,6 +39,14 @@
 //   });
 
 
+video.addEventListener('loadedmetadata', function() {
+    if (video.buffered.length === 0) return;
+
+    const bufferedSeconds = video.buffered.end(0) - video.buffered.start(0);
+    console.log(`${bufferedSeconds} seconds of video are ready to play.`);
+});
+
+
 
 // const text = document.querySelector('h1');
 
