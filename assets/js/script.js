@@ -1,13 +1,13 @@
-document.addEventListener("DOMContentLoaded", function(){
-    document.body.addEventListener("touchstart", playVideo);
-    function playVideo() {
-        const video = document.getElementById('headerVideo');
-        if(video.playing) {
-        } else {
-            video.play();
-        }
-    }
-});
+// document.addEventListener("DOMContentLoaded", function(){
+//     document.body.addEventListener("touchstart", playVideo);
+//     function playVideo() {
+//         const video = document.getElementById('headerVideo');
+//         if(video.playing) {
+//         } else {
+//             video.play();
+//         }
+//     }
+// });
 
 
 // const zoomElement = document.querySelector("#zoom");
