@@ -24,6 +24,7 @@ a {
     color: #ffffff;
     text-decoration: none;
 }
+
 a:hover,
 a:active {
     color: #ffffff;
@@ -70,6 +71,7 @@ video {
     left: 0;
     z-index: 1;
 }
+
 /* */
 
 .logo {
@@ -114,9 +116,9 @@ img {
 
 
 .address-box {
- text-align: center;
- font-size: 1.7vw;
- padding: 70px;
+    text-align: center;
+    font-size: 1.7vw;
+    padding: 70px;
 }
 
 footer {
@@ -130,14 +132,20 @@ footer p {
 
 .social-button {
     font-size: 20px;
-    color:#f8dc22;
+    color: #f8dc22;
 }
 
-@media screen and (max-width: 600px) {
-    h1 {
+@media screen and (max-width: 8000px) {
+    h2 {
         font-size: 45px;
     }
+
     .address-box {
         font-size: 20px;
+    }
 }
+@media screen and (max-width: 600px) {
+    img {
+        width: 250px;
+    }
 }
