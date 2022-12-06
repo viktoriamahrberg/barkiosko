@@ -1,3 +1,15 @@
+document.addEventListener("DOMContentLoaded", function(){
+    document.body.addEventListener("touchstart", playVideo);
+    function playVideo() {
+        const video = document.getElementById('headerVideo');
+        if(video.playing) {
+        } else {
+            video.play();
+        }
+    }
+});
+
+
 // const zoomElement = document.querySelector("#zoom");
 // let zoom = 1;
 // const ZOOM_SPEED = 0.2;
@@ -39,12 +51,12 @@
 //   });
 
 
-video.addEventListener('loadedmetadata', function() {
-    if (video.buffered.length === 0) return;
+// video.addEventListener('loadedmetadata', function() {
+//     if (video.buffered.length === 0) return;
 
-    const bufferedSeconds = video.buffered.end(0) - video.buffered.start(0);
-    console.log(`${bufferedSeconds} seconds of video are ready to play.`);
-});
+//     const bufferedSeconds = video.buffered.end(0) - video.buffered.start(0);
+//     console.log(`${bufferedSeconds} seconds of video are ready to play.`);
+// });
 
 
 
