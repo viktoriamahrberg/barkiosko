@@ -18,7 +18,6 @@ h2 {
     font-size: 5vw;
 }
 
-
 a {
     color: #ffffff;
     text-decoration: none;
@@ -31,11 +30,12 @@ a:active {
     text-decoration: none;
 }
 
+
+/*** T H E - M A G I C - O F - O B J E C T - F I T ***/
+
 #fullscreen-video {
     padding: 0;
 }
-
-/*** T H E - M A G I C - O F - O B J E C T - F I T ***/
 
 .video-container {
     height: 100vh;
@@ -67,9 +67,6 @@ video {
     z-index: 1;
 }
 
-/* */
-
-
 /* Logo section */
 
 .logo {
@@ -97,7 +94,23 @@ img {
     padding: 70px;
 }
 
+/* Opening Soon section */
+
+#zoom {
+    height: 50px;
+    text-align: center;
+}
+
+#zoom-content {
+    width: 100vw;
+    height: 1vh;
+    text-align: center;
+    font-size: 1vw;
+    transform-origin: center top;
+}
+
 /* Footer */
+
 footer {
     margin-top: 100px;
 }
@@ -124,6 +137,7 @@ footer p {
         font-size: 20px;
     }
 }
+
 @media screen and (max-width: 600px) {
     img {
         width: 250px;
