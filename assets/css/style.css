@@ -5,6 +5,7 @@ body {
     color: #ffffff;
     font-family: 'Teko', sans-serif;
     letter-spacing: 2px;
+    overflow-x: hidden;
 }
 
 h2 {
@@ -98,16 +99,16 @@ img {
 
 #zoom {
     height: 50px;
-    text-align: center;
+    text-align: center;    
 }
 
 #zoom-content {
-    width: 100vw;
+    width: 100vw; 
     height: 1vh;
     text-align: center;
-    font-size: 1vw;
     transform-origin: center top;
-}
+  }
+
 
 /* Footer */
 
@@ -128,9 +129,9 @@ footer p {
 
 /* Media Queries  */
 
-@media screen and (max-width: 8000px) {
+@media screen and (max-width: 800px) {
     h2 {
-        font-size: 45px;
+        font-size: 30px;
     }
 
     .address-box {
