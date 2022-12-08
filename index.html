@@ -17,19 +17,22 @@
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@600&family=Teko:wght@300;500;600&display=swap"
         rel="stylesheet">
+        
     <title>Bar Kiosko, Malmö</title>
     <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
 
 <body>
-    <div class="container-fluid">
+    <section class="container-fluid">
         <div class="row">
             <div class="col" id="fullscreen-video">
-                <section class="video-container">
-                    <video id="headerVideo" autoplay="autoplay" loop playsinline muted
+                <div class="video-container">
+                    <video class="my-background-video jquery-background-video" loop autoplay muted playsinline
+                        alt="Bistrot de quartier: Chez Charlot | INA">
+                        <source src="assets/media/video/background_barkiosko.mp4" type="video/mp4" 
                         alt="Chez Charlot - Une journée dans un bistrot parisien en 1974">
-                        <source src="/assets/media/video/background_barkiosko.mp4" type="video/mp4">
-                        <source src="/assets/media/video/background_barkiosko.webm" type="video/webm">
+                        <source src="assets/media/video/background_barkiosko.webm" type="video/webm"
+                        alt="Chez Charlot - Une journée dans un bistrot parisien en 1974">
                     </video>
                     <div class="logo">
                         <img src="/assets/media/logo/barkiosko_logo.png" alt="Bar Kiosko Logo">
@@ -37,7 +40,7 @@
                     <div>
                         <h1>Bar Kiosko</h1>
                     </div>
-                </section>
+                </div>
             </div>
         </div>
         <div class="row">
@@ -56,7 +59,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 
     <footer class="text-center text-lg-start">
         <div class="container d-flex justify-content-center py-5">
@@ -72,10 +75,9 @@
             © 2022 BAR KIOSKO. All rights reserved
         </p>
     </footer>
-    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
-    </script> -->
-    <script src="/assets/js/script.js"></script>
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="assets/js/jquery.background-video.js"></script>
+    <script src="assets/js/script.js"></script>
 </body>
 
 </html>
