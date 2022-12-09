@@ -16,7 +16,7 @@ h2 {
     padding: 0;
     line-height: 1;
     letter-spacing: 2px;
-    font-size: 5vw;
+    font-size: 30px;
 }
 
 a {
@@ -99,12 +99,13 @@ img {
 
 #zoom {
     height: 50px;
-    text-align: center;    
+    text-align: center;  
+
 }
 
 #zoom-content {
-    width: 100vw; 
-    height: 1vh;
+    height: 0.5vh;
+
     text-align: center;
     transform-origin: center top;
   }
@@ -131,7 +132,7 @@ footer p {
 
 @media screen and (max-width: 800px) {
     h2 {
-        font-size: 30px;
+        font-size: 25px;
     }
 
     .address-box {
@@ -142,5 +143,8 @@ footer p {
 @media screen and (max-width: 600px) {
     img {
         width: 250px;
+    }
+    h2 {
+        font-size: 25px;
     }
 }
