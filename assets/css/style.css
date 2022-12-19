@@ -1,9 +1,10 @@
 /* General */
 
+
 body {
     background-color: #1a190f;
     color: #ffffff;
-    font-family: 'Teko', sans-serif;
+    font-family: "Teko", sans-serif;
     letter-spacing: 2px;
     overflow-x: hidden;
 }
@@ -100,12 +101,12 @@ img {
 #zoom {
     height: 50px;
     text-align: center;  
+    overflow-x: hidden;
 
 }
 
 #zoom-content {
-    height: 0.5vh;
-
+    width: 100%;
     text-align: center;
     transform-origin: center top;
   }
@@ -145,6 +146,6 @@ footer p {
         width: 250px;
     }
     h2 {
-        font-size: 25px;
+        font-size: 20px;
     }
 }
