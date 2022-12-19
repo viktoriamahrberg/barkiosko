@@ -242,7 +242,6 @@
 	// Auto run based on data attributes
 	$(document).ready(function(){
 		$('[data-bgvideo]').bgVideo();
-		console.log("helloo")
 	});
 
 
