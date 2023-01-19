@@ -100,13 +100,12 @@ img {
 
 #zoom {
     height: 50px;
-    text-align: center;  
-
-
+    text-align: center; 
+    overflow-x: hidden;
 }
 
 #zoom-content {
-    width: 100%;
+    width: 100vw;
     text-align: center;
     transform-origin: center top;
   }
