@@ -13,11 +13,12 @@ h2 {
     text-transform: uppercase;
     font-weight: 900;
     text-align: center;
-    margin: 0 0 1rem;
+    /* margin: 0 0 1rem; */
     padding: 0;
     line-height: 1;
     letter-spacing: 2px;
-    font-size: 30px;
+    font-size: 25px;
+    width: auto;
 }
 
 a {
@@ -105,7 +106,7 @@ img {
 }
 
 #zoom-content {
-    width: 100vw;
+    width: auto;
     text-align: center;
     transform-origin: center top;
   }
@@ -151,7 +152,7 @@ footer p {
         width: 250px;
     }
     h2 {
-        font-size: 20px;
+        font-size: 15px;
     }
 }
 
