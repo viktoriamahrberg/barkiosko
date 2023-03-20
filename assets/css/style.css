@@ -8,7 +8,16 @@ body {
     letter-spacing: 2px;
     overflow-x: hidden;
 }
-
+p {
+    text-transform: uppercase;
+    font-weight: 900;
+    text-align: center;
+    margin-top: auto;
+    line-height: 1;
+    letter-spacing: 2px;
+    font-size: 1.7vw;
+    width: auto;
+}
 h2 {
     text-transform: uppercase;
     font-weight: 900;
@@ -102,7 +111,7 @@ img {
 #zoom {
     height: 50px;
     text-align: center; 
-    overflow-x: hidden;
+    
 }
 
 #zoom-content {
@@ -141,9 +150,12 @@ footer p {
     h2 {
         font-size: 25px;
     }
-
+    p,
     .address-box {
         font-size: 20px;
+    }
+    #zoom {
+        overflow-x: hidden;
     }
 }
 
@@ -157,6 +169,7 @@ footer p {
 }
 
 @media screen and (max-width: 300px) {
+    p,
     .address-box {
         font-size: 14px;
     }
