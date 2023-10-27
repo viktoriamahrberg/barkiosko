@@ -116,12 +116,15 @@ img {
     padding: 70px;
 }
 
-/* Opening Soon section */
+/* Bar info section */
 
 #zoom {
     height: 50px;
-    text-align: center; 
-    
+    text-align: center;   
+}
+.strike-through {
+    text-decoration: line-through;
+
 }
 
 #zoom-content {
@@ -132,8 +135,6 @@ img {
 
 
 /* Footer */
-
-
 
 footer p {
     color: #f8dc22;
