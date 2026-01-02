@@ -54,11 +54,13 @@ a:active {
 button {
     color: #000;
     padding: 10px;
+    border-radius: 10px;
    } 
 .booking {
     display: block;
-    padding: 40px;
+    padding: 20px;
     margin: auto;
+    text-align: center;
 } 
 
 /*** T H E - M A G I C - O F - O B J E C T - F I T ***/
